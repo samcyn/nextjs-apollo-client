@@ -1,0 +1,36 @@
+.navbar {
+	box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+	&.navbar--transparent {
+		background-color: transparent;
+	}
+	&.navbar--primary {
+		background-color: $brand-primary;
+		a {
+			color: $white-color;
+		}
+	}
+	.container {
+		display: flex;
+	}
+	&__collapse {
+		display: flex;
+		width: 100%;
+	}
+	&__nav {
+		display: flex;
+		list-style-type: none;
+	}
+	&__link {
+		display: block;
+		padding: $spacing;
+	}
+	&__linkActive{
+		color: $brand-primary !important;
+		background: invert($brand-primary);
+	}
+	p {
+    display: inline-block;
+    margin: 0;
+    line-height: 21px;
+	}
+}

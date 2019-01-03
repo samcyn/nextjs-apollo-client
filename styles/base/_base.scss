@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  padding: 0 $spacing;
+  margin: 0 auto;
+  max-width: 1272px;
+  width: 100%;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.justify-content-end {
+  -webkit-box-pack: end!important;
+  -webkit-justify-content: flex-end!important;
+  -ms-flex-pack: end!important;
+  justify-content: flex-end!important;
+}
+
+.text-center {
+  text-align: center;
+}

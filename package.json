@@ -1,0 +1,33 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start -p 8000",
+    "lint": "./node_modules/.bin/eslint pages/*.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "apollo-boost": "^0.1.23",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2",
+    "isomorphic-unfetch": "^3.0.0",
+    "moment": "^2.23.0",
+    "next": "^7.0.2",
+    "node-sass": "^4.11.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-apollo": "^2.3.3",
+    "react-dom": "^16.7.0",
+    "react-moment": "^0.8.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-react": "^7.12.1"
+  }
+}

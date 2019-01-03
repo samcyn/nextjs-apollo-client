@@ -1,0 +1,20 @@
+.grid {
+  @media screen and (min-width: 769px) {
+    &__row {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin: -$spacing;
+    }
+    &__column {
+      flex: 0 0 25%;
+      padding: $spacing;
+      width: 25%;
+    }
+  }
+ 
+}
