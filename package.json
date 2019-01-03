@@ -6,7 +6,7 @@
     "dev": "node server.js",
     "build": "next build",
     "start": "next start -p 8000",
-    "lint": "./node_modules/.bin/eslint pages/*.js"
+    "lint": "./node_modules/.bin/eslint /**/*.js"
   },
   "license": "MIT",
   "dependencies": {
